@@ -1,2 +1,2 @@
 # Repo-JuegoAdivinanza
-https://guillebonutto.github.io/RepoJuegoAdivinanza/
+https://guillebonutto.github.io/Repo-JuegoAdivinanza/
