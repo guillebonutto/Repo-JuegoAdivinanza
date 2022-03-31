@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	background: linear-gradient(rgb(255, 123, 0), rgb(255, 207, 117));
+	height: 100vh;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4rem;
+	color: rgb(0, 0, 255);
+}
+
+h2 {
+	margin-bottom: 3rem;
+}
+
+main {
+	margin-left: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+input,
+button {
+	margin-left: 0.5rem;
+	border-radius: 10%;
+}
+
+.descripcion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5rem;
+}
+
+.instrucciones {
+	margin-left: 3rem;
+}
+
+.formgroup {
+	display: flex;
+	justify-content: center;
+}
+
+.resultados {
+	padding-top: 1rem;
+}
+
+.main-container {
+	width: 37%;
+	background-color: white;
+	border: 20px solid black;
+	box-shadow: 1px 1px 17px 11px rgba(0, 0, 0, 0.57);
+	-webkit-box-shadow: 1px 1px 17px 11px rgba(0, 0, 0, 0.57);
+	-moz-box-shadow: 1px 1px 17px 11px rgba(0, 0, 0, 0.57);
+	border-radius: 10%;
+	padding: 1.5rem;
+}
+
+.recargar {
+	margin-top: 0.5rem;
+	height: 1.2rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+#primero {
+	width: 50%;
+	padding: 0.7rem;
+	border-radius: 10%;
+}
+
+#segundo {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.63rem;
+	padding: 0.7rem;
+	border-radius: 10%;
+}
+
+#tercero {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.63rem;
+    padding: 0.7rem;
+    border-radius: 10%; */
+}
+
+#btnprimary {
+	margin-left: 0.5rem;
+	border-radius: 0%;
+	display: none;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+#precargar {
+	display: none;
+	font-size: 0.8rem;
+	color: #2c3e50;
+}
+
+footer {
+	margin-top: 20rem;
+	display: flex !important;
+	justify-content: space-around !important;
+	font-size: 1.2rem;
+}
